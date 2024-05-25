@@ -1,0 +1,13 @@
+train: D:\Apple Instance Segmentation\yolov7-segmentation\data\train\images
+val: D:\Apple Instance Segmentation\yolov7-segmentation\data\valid\images
+test: D:\Apple Instance Segmentation\yolov7-segmentation\data\test\images
+
+nc: 8
+names: ['braeburn', 'crimson snow', 'golden', 'golden red', 'granny smith', 'pink lady', 'red', 'red delicious']
+
+roboflow:
+  workspace: upn-veteran-yogyakarta-university
+  project: apple-segmentation-84luf
+  version: 4
+  license: Public Domain
+  url: https://universe.roboflow.com/upn-veteran-yogyakarta-university/apple-segmentation-84luf/dataset/4
